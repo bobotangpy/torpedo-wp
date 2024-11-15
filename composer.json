@@ -1,0 +1,22 @@
+{
+	"name": "torpedo/wp",
+	"type": "library",
+	"description": "Various classes to aid wordpress site development",
+	"homepage": "http://gitlab.torpedo.agency/libraries/torpedo-wp",
+	"authors": [
+		{
+			"name": "John McCann",
+			"email": "jmccann@torpedogroup.com",
+			"homepage": "http://www.torpedogroup.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Torpedo\\": "src/"
+		}
+	}
+}
